@@ -1,0 +1,15 @@
+<svg viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="path-1" points="0 0.0002 11.7347 0.0002 11.7347 22.5972 0 22.5972"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="26" height="26" rx="4"></rect>
+        <g id="Page-1" transform="translate(10.000000, 4.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M3.4687,22.5972 L3.4687,12.2892 L-0.0003,12.2892 L-0.0003,8.2722 L3.4687,8.2722 L3.4687,5.3102 C3.4687,1.8722 5.5687,0.0002 8.6357,0.0002 C10.1047,0.0002 11.3667,0.1092 11.7347,0.1582 L11.7347,3.7512 L9.6077,3.7522 C7.9397,3.7522 7.6167,4.5452 7.6167,5.7082 L7.6167,8.2722 L11.5947,8.2722 L11.0767,12.2892 L7.6167,12.2892 L7.6167,22.5972 L3.4687,22.5972 Z" id="Fill-1" fill="#558CAA" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
