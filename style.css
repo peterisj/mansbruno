@@ -556,58 +556,16 @@ body {
       overflow: hidden;
       cursor: pointer; }
       /* line 65, ../templates/partials/header/header.scss */
-      .header__landing-video img,
-      .header__landing-video .play-button {
-        cursor: pointer;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%); }
-      /* line 73, ../templates/partials/header/header.scss */
-      .header__landing-video img,
-      .header__landing-video iframe,
-      .header__landing-video .play-button,
-      .header__landing-video .play-button:before {
-        position: absolute; }
-      /* line 80, ../templates/partials/header/header.scss */
-      .header__landing-video .play-button,
-      .header__landing-video .play-button:before {
-        top: 50%;
-        -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%); }
-      /* line 86, ../templates/partials/header/header.scss */
       .header__landing-video img {
-        width: auto;
-        max-width: inherit; }
-      /* line 91, ../templates/partials/header/header.scss */
-      .header__landing-video .play-button {
-        left: 50%;
-        z-index: 1;
-        width: 90px;
-        width: 5.625rem;
-        height: 90px;
-        height: 5.625rem;
-        opacity: 0.6;
-        border-radius: 50%;
-        border: 10px solid #FFFFFF;
-        border: 0.625rem solid #FFFFFF; }
-        /* line 100, ../templates/partials/header/header.scss */
-        .header__landing-video .play-button:before {
-          left: 54%;
-          content: "";
-          border-style: solid;
-          border-width: 15px 0 15px 30px;
-          border-width: 0.9375rem 0 0.9375rem 1.875rem;
-          border-color: transparent transparent transparent #fff; }
-      /* line 109, ../templates/partials/header/header.scss */
+        cursor: pointer; }
+      /* line 69, ../templates/partials/header/header.scss */
       .header__landing-video iframe {
-        height: 100%;
-        width: 100%;
+        position: absolute;
         top: 0;
-        left: 0; }
-  /* line 118, ../templates/partials/header/header.scss */
+        left: 0;
+        width: 100%;
+        height: 100%; }
+  /* line 79, ../templates/partials/header/header.scss */
   .header__logo {
     width: 92px;
     width: 5.75rem;
@@ -618,7 +576,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
-  /* line 128, ../templates/partials/header/header.scss */
+  /* line 89, ../templates/partials/header/header.scss */
   .header__burger {
     position: absolute;
     top: 50%;
@@ -635,7 +593,7 @@ body {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out; }
-    /* line 140, ../templates/partials/header/header.scss */
+    /* line 101, ../templates/partials/header/header.scss */
     .header__burger:before, .header__burger:after {
       position: absolute;
       width: 32px;
@@ -649,17 +607,17 @@ body {
       -webkit-transition: all .3s ease-in-out;
       -o-transition: all .3s ease-in-out;
       transition: all .3s ease-in-out; }
-    /* line 152, ../templates/partials/header/header.scss */
+    /* line 113, ../templates/partials/header/header.scss */
     .header__burger:before {
       -webkit-transform: translateY(0.625rem);
           -ms-transform: translateY(0.625rem);
               transform: translateY(0.625rem); }
-    /* line 156, ../templates/partials/header/header.scss */
+    /* line 117, ../templates/partials/header/header.scss */
     .header__burger:after {
       -webkit-transform: translateY(-0.625rem);
           -ms-transform: translateY(-0.625rem);
               transform: translateY(-0.625rem); }
-    /* line 160, ../templates/partials/header/header.scss */
+    /* line 121, ../templates/partials/header/header.scss */
     .header__burger-box {
       position: relative;
       width: 32px;
@@ -667,7 +625,7 @@ body {
       height: 28px;
       height: 1.75rem;
       display: inline-block; }
-    /* line 167, ../templates/partials/header/header.scss */
+    /* line 128, ../templates/partials/header/header.scss */
     .header__burger-button {
       position: absolute;
       top: 50%;
@@ -681,7 +639,7 @@ body {
           -ms-transform: translateY(-50%);
               transform: translateY(-50%);
       cursor: pointer; }
-  /* line 179, ../templates/partials/header/header.scss */
+  /* line 140, ../templates/partials/header/header.scss */
   .header__drop {
     position: absolute;
     top: 16px;
@@ -695,11 +653,11 @@ body {
     -o-transition: opacity 0.15s ease-in;
     transition: opacity 0.15s ease-in;
     visibility: hidden; }
-    /* line 189, ../templates/partials/header/header.scss */
+    /* line 150, ../templates/partials/header/header.scss */
     .header__drop--active {
       opacity: 1;
       visibility: visible; }
-    /* line 194, ../templates/partials/header/header.scss */
+    /* line 155, ../templates/partials/header/header.scss */
     .header__drop-wrap {
       position: relative;
       padding: 24px;
@@ -708,12 +666,12 @@ body {
       background-color: #558CAA;
       -webkit-box-shadow: 0 0 0.9375rem 0.125rem rgba(0, 0, 0, 0.2);
               box-shadow: 0 0 0.9375rem 0.125rem rgba(0, 0, 0, 0.2); }
-      /* line 201, ../templates/partials/header/header.scss */
+      /* line 162, ../templates/partials/header/header.scss */
       .header__drop-wrap:after, .header__drop-wrap:before {
         position: absolute;
         right: 0;
         content: ''; }
-      /* line 208, ../templates/partials/header/header.scss */
+      /* line 169, ../templates/partials/header/header.scss */
       .header__drop-wrap:after {
         top: -80px;
         top: -5rem;
@@ -723,7 +681,7 @@ body {
         height: 5rem;
         border-radius: 50%;
         background-color: #00415A; }
-      /* line 216, ../templates/partials/header/header.scss */
+      /* line 177, ../templates/partials/header/header.scss */
       .header__drop-wrap:before {
         top: -40px;
         top: -2.5rem;
@@ -732,7 +690,7 @@ body {
         height: 40px;
         height: 2.5rem;
         background-color: #558CAA; }
-    /* line 224, ../templates/partials/header/header.scss */
+    /* line 185, ../templates/partials/header/header.scss */
     .header__drop-menu {
       display: -webkit-box;
       display: -webkit-flex;
@@ -743,7 +701,7 @@ body {
       -webkit-flex-direction: column;
           -ms-flex-direction: column;
               flex-direction: column; }
-      /* line 228, ../templates/partials/header/header.scss */
+      /* line 189, ../templates/partials/header/header.scss */
       .header__drop-menu a {
         position: relative;
         padding: 8px;
@@ -756,7 +714,7 @@ body {
         font-size: 18px;
         font-size: 1.125rem;
         font-weight: 300; }
-        /* line 238, ../templates/partials/header/header.scss */
+        /* line 199, ../templates/partials/header/header.scss */
         .header__drop-menu a:after, .header__drop-menu a:before {
           position: absolute;
           bottom: 0;
@@ -765,7 +723,7 @@ body {
           height: 1px;
           height: 0.0625rem;
           content: ''; }
-        /* line 248, ../templates/partials/header/header.scss */
+        /* line 209, ../templates/partials/header/header.scss */
         .header__drop-menu a:before {
           -webkit-animation: line-before-change-back 0.4s forwards;
                   animation: line-before-change-back 0.4s forwards;
@@ -773,7 +731,7 @@ body {
           -webkit-transform: translateX(0);
               -ms-transform: translateX(0);
                   transform: translateX(0); }
-        /* line 254, ../templates/partials/header/header.scss */
+        /* line 215, ../templates/partials/header/header.scss */
         .header__drop-menu a:after {
           -webkit-animation: line-after-change-back 0.4s forwards;
                   animation: line-after-change-back 0.4s forwards;
@@ -781,11 +739,11 @@ body {
           -webkit-transform: translateX(100%);
               -ms-transform: translateX(100%);
                   transform: translateX(100%); }
-        /* line 263, ../templates/partials/header/header.scss */
+        /* line 224, ../templates/partials/header/header.scss */
         .header__drop-menu a:hover:before, .header__drop-menu a:focus:before, .header__drop-menu a:active:before {
           -webkit-animation: line-before-change 0.4s forwards;
                   animation: line-before-change 0.4s forwards; }
-        /* line 267, ../templates/partials/header/header.scss */
+        /* line 228, ../templates/partials/header/header.scss */
         .header__drop-menu a:hover:after, .header__drop-menu a:focus:after, .header__drop-menu a:active:after {
           -webkit-animation: line-after-change 0.4s forwards;
                   animation: line-after-change 0.4s forwards; }
@@ -793,54 +751,47 @@ body {
     /* line 1, ../templates/partials/header/header.scss */
     .header {
       height: 7.375rem; }
-      /* line 278, ../templates/partials/header/header.scss */
+      /* line 239, ../templates/partials/header/header.scss */
       .header--landing {
         height: 100vh; }
-      /* line 282, ../templates/partials/header/header.scss */
+      /* line 243, ../templates/partials/header/header.scss */
       .header__logo {
         height: 3.875rem;
         width: 8.75rem; }
-      /* line 287, ../templates/partials/header/header.scss */
+      /* line 248, ../templates/partials/header/header.scss */
       .header__head {
         padding: 1.25rem 0; }
-      /* line 291, ../templates/partials/header/header.scss */
+      /* line 252, ../templates/partials/header/header.scss */
       .header__drop {
         top: 4rem; }
-        /* line 294, ../templates/partials/header/header.scss */
+        /* line 255, ../templates/partials/header/header.scss */
         .header__drop-wrap {
           position: relative;
           padding: 2rem 3rem; }
-        /* line 300, ../templates/partials/header/header.scss */
+        /* line 261, ../templates/partials/header/header.scss */
         .header__drop-menu a {
           min-width: 12.5rem;
           font-size: 1.75rem; } }
   @media (min-width: 480px) and (max-height: 900px) {
-    /* line 308, ../templates/partials/header/header.scss */
+    /* line 269, ../templates/partials/header/header.scss */
     .header__drop {
       top: 3.75rem; } }
   @media (min-width: 480px) and (max-height: 720px) {
-    /* line 314, ../templates/partials/header/header.scss */
+    /* line 275, ../templates/partials/header/header.scss */
     .header__drop {
       top: 3rem; } }
   @media (min-width: 600px) {
     /* line 1, ../templates/partials/header/header.scss */
     .header {
       text-align: center; }
-      /* line 324, ../templates/partials/header/header.scss */
+      /* line 285, ../templates/partials/header/header.scss */
       .header--landing .header__landing-btn {
         bottom: 2rem; }
-      /* line 331, ../templates/partials/header/header.scss */
+      /* line 292, ../templates/partials/header/header.scss */
       .header__landing-video img {
-        width: 100%; }
-      /* line 335, ../templates/partials/header/header.scss */
-      .header__landing-video .play-button {
-        width: 8.125rem;
-        height: 8.125rem; }
-        /* line 339, ../templates/partials/header/header.scss */
-        .header__landing-video .play-button:before {
-          border-width: 1.5rem 0 1.5rem 3rem; } }
+        width: 100%; } }
   @media (min-width: 840px) {
-    /* line 348, ../templates/partials/header/header.scss */
+    /* line 300, ../templates/partials/header/header.scss */
     .header__landing {
       max-width: 98%;
       margin: 0 auto;
@@ -848,46 +799,46 @@ body {
       -o-transition: max-width .2s ease-in-out;
       transition: max-width .2s ease-in-out; } }
   @media (min-width: 840px) and (min-width: 320px) {
-    /* line 348, ../templates/partials/header/header.scss */
+    /* line 300, ../templates/partials/header/header.scss */
     .header__landing {
       max-width: 94%;
       margin: 0 auto; } }
   @media (min-width: 840px) and (min-width: 600px) {
-    /* line 348, ../templates/partials/header/header.scss */
+    /* line 300, ../templates/partials/header/header.scss */
     .header__landing {
       max-width: 96%;
       margin: 0 auto; } }
   @media (min-width: 840px) and (min-width: 768px) {
-    /* line 348, ../templates/partials/header/header.scss */
+    /* line 300, ../templates/partials/header/header.scss */
     .header__landing {
       max-width: 96%;
       margin: 0 auto; } }
   @media (min-width: 840px) and (min-width: 1024px) {
-    /* line 348, ../templates/partials/header/header.scss */
+    /* line 300, ../templates/partials/header/header.scss */
     .header__landing {
       max-width: 61.25rem;
       margin: 0 auto; } }
   @media (min-width: 1024px) {
-    /* line 354, ../templates/partials/header/header.scss */
+    /* line 306, ../templates/partials/header/header.scss */
     .header__drop {
       right: 3.75rem; }
-    /* line 358, ../templates/partials/header/header.scss */
+    /* line 310, ../templates/partials/header/header.scss */
     .header__landing-video {
       margin: 0 3.75rem;
       padding-bottom: 49.4%; }
-    /* line 364, ../templates/partials/header/header.scss */
+    /* line 316, ../templates/partials/header/header.scss */
     .header__burger-button {
       right: 3.75rem; } }
   @media (max-height: 900px) {
-    /* line 371, ../templates/partials/header/header.scss */
+    /* line 323, ../templates/partials/header/header.scss */
     .header__drop-wrap {
       border-radius: 1.25rem 0 1.25rem 1.25rem; }
-      /* line 374, ../templates/partials/header/header.scss */
+      /* line 326, ../templates/partials/header/header.scss */
       .header__drop-wrap:before {
         top: -1.25rem;
         width: 1.25rem;
         height: 1.25rem; }
-      /* line 380, ../templates/partials/header/header.scss */
+      /* line 332, ../templates/partials/header/header.scss */
       .header__drop-wrap:after {
         top: -2.5rem;
         width: 2.5rem;
@@ -896,13 +847,13 @@ body {
     /* line 1, ../templates/partials/header/header.scss */
     .header {
       height: auto; }
-      /* line 392, ../templates/partials/header/header.scss */
+      /* line 344, ../templates/partials/header/header.scss */
       .header--landing {
         height: 100vh; }
-      /* line 396, ../templates/partials/header/header.scss */
+      /* line 348, ../templates/partials/header/header.scss */
       .header__head {
         padding: 0.625rem 0; }
-      /* line 400, ../templates/partials/header/header.scss */
+      /* line 352, ../templates/partials/header/header.scss */
       .header__logo {
         width: 5.75rem;
         height: 2.5rem; } }
