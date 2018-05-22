@@ -1,1 +1,1 @@
-var version = '1526624423'; importScripts('https://cdn.mxapis.com/service-worker.js');
+var version = '1526988169'; importScripts('https://cdn.mxapis.com/service-worker.js');
