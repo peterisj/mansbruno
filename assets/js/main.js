@@ -116,7 +116,7 @@
         });
 
         $readyBtn.on('click', function () {
-            mt('webpush:prompt:show', 'a54484a2')
+            mt('webpush:prompt:show', '7ed5de6c')
         });
 
         if ($whoWord.length) {
