@@ -13,8 +13,7 @@
             $readyBtn = $('.js-ready'),
             currentUrl = window.location.href,
             currentHash = currentUrl.substring(currentUrl.indexOf('#')+1),
-            themeUrl = 'http://' + window.location.host + '/mansbruno',
-            metaFbUrl = 'http://' + window.location.host,
+            themeUrl = 'http://' + window.location.host,
             metaFbTitle = 'Un kā tu rīkojies ar naudu?',
             metaFbName = 'Ienāc MANS BRUNO',
             metaFbDesc = 'Nosaki savu finanšu personības tipu!',
@@ -45,20 +44,13 @@
                 action_type: 'og.shares',
                 action_properties: JSON.stringify({
                     object: {
-                        'og:url': metaFbUrl,
+                        'og:url': themeUrl,
                         'og:title': metaFbTitle,
                         'og:site_name': metaFbName,
                         'og:description': metaFbDesc,
                         'og:image': metaFbImg
                     }
                 })
-            });
-
-            ga('send', {
-                hitType: 'event',
-                eventCategory: 'Quiz Social share',
-                eventAction: 'Result share Facebook',
-                eventLabel: '' + $(this).data('type') + ''
             });
         });
 
@@ -102,17 +94,6 @@
            var $this = $(this),
                link = $this.data('link');
             window.open(link, 'popupWindow', 'width=600, height=400, scrollbars=yes');
-
-            console.log('loo');
-
-            ga('send', {
-                hitType: 'event',
-                eventCategory: 'Quiz Social share',
-                eventAction: 'Result share Twitter',
-                eventLabel: '' + $(this).data('type') + ''
-            });
-
-            return false;
         });
 
         $readyBtn.on('click', function () {
