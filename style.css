@@ -2297,7 +2297,7 @@ body {
   right: 1.25rem;
   bottom: 20px;
   bottom: 1.25rem;
-  z-index: 1; }
+  z-index: 2; }
 
 @media (min-width: 768px) {
   /* line 10, ../templates/pages/questions/_questions.scss */
@@ -2318,7 +2318,7 @@ body {
         -ms-transform: inherit;
             transform: inherit; } }
 
-/* line 40, ../templates/pages/questions/_questions.scss */
+/* line 28, ../templates/pages/questions/_questions.scss */
 .submit-res__title {
   font-size: 32px;
   font-size: 2rem;
@@ -2327,7 +2327,7 @@ body {
   margin-bottom: 16px;
   margin-bottom: 1rem; }
 
-/* line 46, ../templates/pages/questions/_questions.scss */
+/* line 34, ../templates/pages/questions/_questions.scss */
 .submit-res__image {
   background-position: center;
   background-repeat: no-repeat;
@@ -2337,7 +2337,7 @@ body {
   position: absolute;
   right: 0;
   top: 0; }
-  /* line 56, ../templates/pages/questions/_questions.scss */
+  /* line 44, ../templates/pages/questions/_questions.scss */
   .submit-res__image-wrap {
     height: 0;
     margin-top: 24px;
@@ -2345,7 +2345,7 @@ body {
     padding-top: 40%;
     position: relative; }
 
-/* line 64, ../templates/pages/questions/_questions.scss */
+/* line 52, ../templates/pages/questions/_questions.scss */
 .submit-res .button {
   line-height: 38px;
   line-height: 2.375rem;
@@ -2353,21 +2353,21 @@ body {
   text-align: left; }
 
 @media (min-width: 375px) {
-  /* line 70, ../templates/pages/questions/_questions.scss */
+  /* line 58, ../templates/pages/questions/_questions.scss */
   .submit-res__title {
     font-size: 2.375rem;
     line-height: 2.5rem; }
-  /* line 75, ../templates/pages/questions/_questions.scss */
+  /* line 63, ../templates/pages/questions/_questions.scss */
   .submit-res__image-wrap {
     padding-top: 50%; } }
 
 @media (min-width: 600px) {
-  /* line 80, ../templates/pages/questions/_questions.scss */
+  /* line 68, ../templates/pages/questions/_questions.scss */
   .submit-res__image-wrap {
     padding-top: 25%; } }
 
 @media (min-width: 992px) {
-  /* line 86, ../templates/pages/questions/_questions.scss */
+  /* line 74, ../templates/pages/questions/_questions.scss */
   .submit-res__image-wrap {
     background-position: right center;
     margin-top: 0;
@@ -2377,23 +2377,23 @@ body {
             transform: translateY(-20%); } }
 
 @media (min-width: 1024px) {
-  /* line 95, ../templates/pages/questions/_questions.scss */
+  /* line 83, ../templates/pages/questions/_questions.scss */
   .submit-res__title {
     font-size: 3.5rem;
     line-height: 4rem;
     margin-bottom: 2rem; }
-  /* line 101, ../templates/pages/questions/_questions.scss */
+  /* line 89, ../templates/pages/questions/_questions.scss */
   .submit-res__image-wrap {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0); }
-  /* line 105, ../templates/pages/questions/_questions.scss */
+  /* line 93, ../templates/pages/questions/_questions.scss */
   .submit-res .button {
     line-height: 4.5rem;
     border-radius: 3.75rem;
     font-size: 2rem; } }
 
-/* line 113, ../templates/pages/questions/_questions.scss */
+/* line 101, ../templates/pages/questions/_questions.scss */
 .section:after {
   position: absolute;
   top: 44%;
@@ -2409,40 +2409,40 @@ body {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%); }
 
-/* line 127, ../templates/pages/questions/_questions.scss */
+/* line 115, ../templates/pages/questions/_questions.scss */
 .section .fp-tableCell {
   position: relative;
   z-index: 1; }
 
-/* line 134, ../templates/pages/questions/_questions.scss */
+/* line 122, ../templates/pages/questions/_questions.scss */
 .section--question-1:after {
   background-image: url("assets/img/svg/icon--question-1.svg"); }
 
-/* line 134, ../templates/pages/questions/_questions.scss */
+/* line 122, ../templates/pages/questions/_questions.scss */
 .section--question-2:after {
   background-image: url("assets/img/svg/icon--question-2.svg"); }
 
-/* line 134, ../templates/pages/questions/_questions.scss */
+/* line 122, ../templates/pages/questions/_questions.scss */
 .section--question-3:after {
   background-image: url("assets/img/svg/icon--question-3.svg"); }
 
-/* line 134, ../templates/pages/questions/_questions.scss */
+/* line 122, ../templates/pages/questions/_questions.scss */
 .section--question-4:after {
   background-image: url("assets/img/svg/icon--question-4.svg"); }
 
-/* line 134, ../templates/pages/questions/_questions.scss */
+/* line 122, ../templates/pages/questions/_questions.scss */
 .section--question-5:after {
   background-image: url("assets/img/svg/icon--question-5.svg"); }
 
-/* line 134, ../templates/pages/questions/_questions.scss */
+/* line 122, ../templates/pages/questions/_questions.scss */
 .section--question-6:after {
   background-image: url("assets/img/svg/icon--question-6.svg"); }
 
-/* line 141, ../templates/pages/questions/_questions.scss */
+/* line 129, ../templates/pages/questions/_questions.scss */
 .section--question-1 .slidenav__prev {
   display: none; }
 
-/* line 145, ../templates/pages/questions/_questions.scss */
+/* line 133, ../templates/pages/questions/_questions.scss */
 .section--question-1:after {
   top: 48%;
   left: 38%;
@@ -2450,17 +2450,17 @@ body {
   height: 100%; }
 
 @media (min-width: 768px) and (max-height: 900px) {
-  /* line 158, ../templates/pages/questions/_questions.scss */
+  /* line 146, ../templates/pages/questions/_questions.scss */
   .section--question-1 .qbox__title span, .section--question-4 .qbox__title span {
     display: block; }
-  /* line 164, ../templates/pages/questions/_questions.scss */
+  /* line 152, ../templates/pages/questions/_questions.scss */
   .section .qbox__title {
     font-size: 2rem;
     line-height: 2.5rem; }
-    /* line 168, ../templates/pages/questions/_questions.scss */
+    /* line 156, ../templates/pages/questions/_questions.scss */
     .section .qbox__title span {
       display: inline; }
-  /* line 173, ../templates/pages/questions/_questions.scss */
+  /* line 161, ../templates/pages/questions/_questions.scss */
   .section .slidenav {
     left: inherit;
     right: 10%;
@@ -2469,68 +2469,68 @@ body {
             transform: none; } }
 
 @media (min-width: 768px) and (max-height: 520px) {
-  /* line 184, ../templates/pages/questions/_questions.scss */
+  /* line 172, ../templates/pages/questions/_questions.scss */
   .section--question-1 .qbox__title span, .section--question-4 .qbox__title span {
     display: inline; } }
 
 @media (min-width: 1024px) {
-  /* line 196, ../templates/pages/questions/_questions.scss */
+  /* line 184, ../templates/pages/questions/_questions.scss */
   .section--question-1 .qbox__title {
     width: 16.625rem; }
-  /* line 200, ../templates/pages/questions/_questions.scss */
+  /* line 188, ../templates/pages/questions/_questions.scss */
   .section--question-1 .qbox__header:after {
     background-image: url("assets/img/svg/icon--question-1.svg"); }
-  /* line 196, ../templates/pages/questions/_questions.scss */
+  /* line 184, ../templates/pages/questions/_questions.scss */
   .section--question-2 .qbox__title {
     width: 16.625rem; }
-  /* line 200, ../templates/pages/questions/_questions.scss */
+  /* line 188, ../templates/pages/questions/_questions.scss */
   .section--question-2 .qbox__header:after {
     background-image: url("assets/img/svg/icon--question-2.svg"); }
-  /* line 196, ../templates/pages/questions/_questions.scss */
+  /* line 184, ../templates/pages/questions/_questions.scss */
   .section--question-3 .qbox__title {
     width: 16.625rem; }
-  /* line 200, ../templates/pages/questions/_questions.scss */
+  /* line 188, ../templates/pages/questions/_questions.scss */
   .section--question-3 .qbox__header:after {
     background-image: url("assets/img/svg/icon--question-3.svg"); }
-  /* line 196, ../templates/pages/questions/_questions.scss */
+  /* line 184, ../templates/pages/questions/_questions.scss */
   .section--question-4 .qbox__title {
     width: 16.625rem; }
-  /* line 200, ../templates/pages/questions/_questions.scss */
+  /* line 188, ../templates/pages/questions/_questions.scss */
   .section--question-4 .qbox__header:after {
     background-image: url("assets/img/svg/icon--question-4.svg"); }
-  /* line 196, ../templates/pages/questions/_questions.scss */
+  /* line 184, ../templates/pages/questions/_questions.scss */
   .section--question-5 .qbox__title {
     width: 16.625rem; }
-  /* line 200, ../templates/pages/questions/_questions.scss */
+  /* line 188, ../templates/pages/questions/_questions.scss */
   .section--question-5 .qbox__header:after {
     background-image: url("assets/img/svg/icon--question-5.svg"); }
-  /* line 196, ../templates/pages/questions/_questions.scss */
+  /* line 184, ../templates/pages/questions/_questions.scss */
   .section--question-6 .qbox__title {
     width: 16.625rem; }
-  /* line 200, ../templates/pages/questions/_questions.scss */
+  /* line 188, ../templates/pages/questions/_questions.scss */
   .section--question-6 .qbox__header:after {
     background-image: url("assets/img/svg/icon--question-6.svg"); }
-  /* line 207, ../templates/pages/questions/_questions.scss */
+  /* line 195, ../templates/pages/questions/_questions.scss */
   .section:after {
     display: none; }
-  /* line 212, ../templates/pages/questions/_questions.scss */
+  /* line 200, ../templates/pages/questions/_questions.scss */
   .section--question-1 .qbox__header:after {
     width: 120%;
     height: 120%; }
-  /* line 219, ../templates/pages/questions/_questions.scss */
+  /* line 207, ../templates/pages/questions/_questions.scss */
   .section--question-3 .qbox__title {
     width: 10.625rem; }
-  /* line 225, ../templates/pages/questions/_questions.scss */
+  /* line 213, ../templates/pages/questions/_questions.scss */
   .section--question-4 .qbox__title {
     width: 12.5rem; }
-  /* line 231, ../templates/pages/questions/_questions.scss */
+  /* line 219, ../templates/pages/questions/_questions.scss */
   .section--question-5 .qbox__header:after {
     top: 46%;
     left: 29%; }
-  /* line 238, ../templates/pages/questions/_questions.scss */
+  /* line 226, ../templates/pages/questions/_questions.scss */
   .section--question-6 .qbox__title span {
     display: block; }
-  /* line 241, ../templates/pages/questions/_questions.scss */
+  /* line 229, ../templates/pages/questions/_questions.scss */
   .section--question-6 .qbox__header:after {
     top: 57%;
     left: 26%;
@@ -2538,30 +2538,30 @@ body {
     height: 100%; } }
 
 @media (min-width: 1024px) and (max-height: 900px) {
-  /* line 250, ../templates/pages/questions/_questions.scss */
+  /* line 238, ../templates/pages/questions/_questions.scss */
   .section .qbox__title {
     font-size: 3rem;
     line-height: 3.5rem; } }
 
 @media (min-width: 1024px) and (max-height: 520px) {
-  /* line 257, ../templates/pages/questions/_questions.scss */
+  /* line 245, ../templates/pages/questions/_questions.scss */
   .section .qbox__title {
     font-size: 2rem;
     line-height: 2.5rem; } }
 
 @media (max-width: 767px) and (max-height: 720px) {
-  /* line 266, ../templates/pages/questions/_questions.scss */
+  /* line 254, ../templates/pages/questions/_questions.scss */
   .section .qbox__title {
     font-size: 1.5rem;
     line-height: 2rem; }
-    /* line 270, ../templates/pages/questions/_questions.scss */
+    /* line 258, ../templates/pages/questions/_questions.scss */
     .section .qbox__title span {
       display: inline; }
-  /* line 276, ../templates/pages/questions/_questions.scss */
+  /* line 264, ../templates/pages/questions/_questions.scss */
   .section .answers__title:before {
     width: 2.5rem;
     height: 2.5rem; }
-  /* line 281, ../templates/pages/questions/_questions.scss */
+  /* line 269, ../templates/pages/questions/_questions.scss */
   .section .answers__title span {
     font-size: 1rem;
     line-height: 1.5rem; } }
