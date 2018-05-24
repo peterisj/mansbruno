@@ -13,8 +13,8 @@
             $readyBtn = $('.js-ready'),
             currentUrl = window.location.href,
             currentHash = currentUrl.substring(currentUrl.indexOf('#')+1),
-            themeUrl = 'http://' + window.location.host,
-            metaFbTitle = 'Un kā tu rīkojies ar naudu?',
+            themeUrl = 'https://' + window.location.host,
+            metaFbTitle = 'TESTS: Un kā tu rīkojies ar naudu?',
             metaFbName = 'Ienāc MANS BRUNO',
             metaFbDesc = 'Nosaki savu finanšu personības tipu!',
             metaFbImg;
