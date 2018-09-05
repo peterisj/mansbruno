@@ -37,23 +37,24 @@
             metaFbImg = themeUrl + '/assets/img/fb-cover/fb-5.jpg';
         }
 
-        $('#share-fb-button').on('click', function(e){
-            e.preventDefault();
-            FB.ui({
-                method: 'share_open_graph',
-                action_type: 'og.shares',
-                action_properties: JSON.stringify({
-                    object: {
-                        'og:url': themeUrl,
-                        'og:title': metaFbTitle,
-                        'og:site_name': metaFbName,
-                        'og:description': metaFbDesc,
-                        'og:image': metaFbImg
-                    }
-                })
+        $('.js-fb-share').each(function () {
+            $(this).on('click', function(e){
+                e.preventDefault();
+                FB.ui({
+                    method: 'share_open_graph',
+                    action_type: 'og.shares',
+                    action_properties: JSON.stringify({
+                        object: {
+                            'og:url': themeUrl,
+                            'og:title': metaFbTitle,
+                            'og:site_name': metaFbName,
+                            'og:description': metaFbDesc,
+                            'og:image': metaFbImg
+                        }
+                    })
+                });
             });
         });
-
 
         if ($adviceSlider.length) {
             $adviceSlider.slick({

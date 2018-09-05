@@ -1,6 +1,6 @@
 (function ($) {
     $( document ).ready(function() {
-        $('#share-fb-button').on('click', function() {
+        $('.js-fb-share').on('click', function() {
             ga('send', {
                 hitType: 'event',
                 eventCategory: 'Quiz Social share',
